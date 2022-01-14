@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB6A749E8FB49FC59CB1B38 /* Pods_MoneyCheak__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9867B28A828E01476923F8A /* Pods_MoneyCheak__macOS_.framework */; };
+		850F20A027878B1200123E11 /* IntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F209F27878B1200123E11 /* IntervalView.swift */; };
+		850F20A127878B1200123E11 /* IntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F209F27878B1200123E11 /* IntervalView.swift */; };
+		851856B4278A83CA00FA43BA /* NewBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851856B3278A83C900FA43BA /* NewBills.swift */; };
+		851856B5278A83CA00FA43BA /* NewBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851856B3278A83C900FA43BA /* NewBills.swift */; };
+		851856B7278B5E6600FA43BA /* NewCatagoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851856B6278B5E6600FA43BA /* NewCatagoryView.swift */; };
+		851856B8278B5E6600FA43BA /* NewCatagoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851856B6278B5E6600FA43BA /* NewCatagoryView.swift */; };
+		851856BA278B637700FA43BA /* NewIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851856B9278B637700FA43BA /* NewIntervalView.swift */; };
+		851856BB278B637700FA43BA /* NewIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851856B9278B637700FA43BA /* NewIntervalView.swift */; };
+		853BD67A278CFB2C00CCA371 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BD679278CFB2C00CCA371 /* AnalysisView.swift */; };
+		853BD67B278CFB2C00CCA371 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BD679278CFB2C00CCA371 /* AnalysisView.swift */; };
+		8562F7AE2780E55A009A5870 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7AD2780E559009A5870 /* Names.swift */; };
+		8562F7AF2780E55A009A5870 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7AD2780E559009A5870 /* Names.swift */; };
+		8562F7B12780E5E3009A5870 /* GetNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7B02780E5E3009A5870 /* GetNames.swift */; };
+		8562F7B22780E5E3009A5870 /* GetNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7B02780E5E3009A5870 /* GetNames.swift */; };
+		8562F7B72781348F009A5870 /* Bills .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7B62781348F009A5870 /* Bills .swift */; };
+		8562F7B82781348F009A5870 /* Bills .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7B62781348F009A5870 /* Bills .swift */; };
+		8562F7BA27814534009A5870 /* AutoBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7B927814533009A5870 /* AutoBills.swift */; };
+		8562F7BB27814534009A5870 /* AutoBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8562F7B927814533009A5870 /* AutoBills.swift */; };
+		85721D1027836C900074CF54 /* CatagoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85721D0F27836C900074CF54 /* CatagoryView.swift */; };
+		85721D1127836C900074CF54 /* CatagoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85721D0F27836C900074CF54 /* CatagoryView.swift */; };
+		85721D1327837B6B0074CF54 /* CatagoryBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85721D1227837B6B0074CF54 /* CatagoryBills.swift */; };
+		85721D1427837B6B0074CF54 /* CatagoryBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85721D1227837B6B0074CF54 /* CatagoryBills.swift */; };
+		85896A54277F83D2005B91C1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85896A53277F83D2005B91C1 /* AccountView.swift */; };
+		85896A55277F83D2005B91C1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85896A53277F83D2005B91C1 /* AccountView.swift */; };
+		8589CC162779347A00CEF70F /* MoneyCheakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589CC062779347700CEF70F /* MoneyCheakApp.swift */; };
+		8589CC172779347A00CEF70F /* MoneyCheakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589CC062779347700CEF70F /* MoneyCheakApp.swift */; };
+		8589CC182779347A00CEF70F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589CC072779347700CEF70F /* ContentView.swift */; };
+		8589CC192779347A00CEF70F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589CC072779347700CEF70F /* ContentView.swift */; };
+		8589CC1A2779347A00CEF70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8589CC082779347A00CEF70F /* Assets.xcassets */; };
+		8589CC1B2779347A00CEF70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8589CC082779347A00CEF70F /* Assets.xcassets */; };
+		8590D6F02785CFFA003294DC /* BillInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590D6EF2785CFF9003294DC /* BillInfo.swift */; };
+		8590D6F12785CFFA003294DC /* BillInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590D6EF2785CFF9003294DC /* BillInfo.swift */; };
+		85B102D8277CFF770070B2CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B102D7277CFF770070B2CD /* GoogleService-Info.plist */; };
+		85B102D9277CFF770070B2CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B102D7277CFF770070B2CD /* GoogleService-Info.plist */; };
+		85B102DB277D3AFD0070B2CD /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B102DA277D3AFD0070B2CD /* Homescreen.swift */; };
+		85B102DC277D3AFD0070B2CD /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B102DA277D3AFD0070B2CD /* Homescreen.swift */; };
+		85CD377A27825FC900053AE4 /* BillsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CD377927825FC800053AE4 /* BillsDetails.swift */; };
+		85CD377B27825FC900053AE4 /* BillsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CD377927825FC800053AE4 /* BillsDetails.swift */; };
+		FA0789DEB3035582D9F40242 /* Pods_MoneyCheak__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A407F327AB738AB79DD20457 /* Pods_MoneyCheak__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29D4A87033A3B6F7FB32A2C8 /* Pods-MoneyCheak (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyCheak (macOS).release.xcconfig"; path = "Target Support Files/Pods-MoneyCheak (macOS)/Pods-MoneyCheak (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		7049D4E62E596A67389CD27E /* Pods-MoneyCheak (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyCheak (macOS).debug.xcconfig"; path = "Target Support Files/Pods-MoneyCheak (macOS)/Pods-MoneyCheak (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		850F209F27878B1200123E11 /* IntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalView.swift; sourceTree = "<group>"; };
+		851856B3278A83C900FA43BA /* NewBills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBills.swift; sourceTree = "<group>"; };
+		851856B6278B5E6600FA43BA /* NewCatagoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCatagoryView.swift; sourceTree = "<group>"; };
+		851856B9278B637700FA43BA /* NewIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIntervalView.swift; sourceTree = "<group>"; };
+		853BD679278CFB2C00CCA371 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		8562F7AD2780E559009A5870 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		8562F7B02780E5E3009A5870 /* GetNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNames.swift; sourceTree = "<group>"; };
+		8562F7B62781348F009A5870 /* Bills .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bills .swift"; sourceTree = "<group>"; };
+		8562F7B927814533009A5870 /* AutoBills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoBills.swift; sourceTree = "<group>"; };
+		85721D0F27836C900074CF54 /* CatagoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryView.swift; sourceTree = "<group>"; };
+		85721D1227837B6B0074CF54 /* CatagoryBills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryBills.swift; sourceTree = "<group>"; };
+		85896A53277F83D2005B91C1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		8589CC062779347700CEF70F /* MoneyCheakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCheakApp.swift; sourceTree = "<group>"; };
+		8589CC072779347700CEF70F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8589CC082779347A00CEF70F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8589CC0D2779347A00CEF70F /* MoneyCheak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyCheak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8589CC132779347A00CEF70F /* MoneyCheak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyCheak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8589CC152779347A00CEF70F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8590D6EF2785CFF9003294DC /* BillInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInfo.swift; sourceTree = "<group>"; };
+		85B102D7277CFF770070B2CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85B102DA277D3AFD0070B2CD /* Homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homescreen.swift; sourceTree = "<group>"; };
+		85CD377927825FC800053AE4 /* BillsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsDetails.swift; sourceTree = "<group>"; };
+		9CBEA5BC82B72FBEC25DCFE7 /* Pods-MoneyCheak (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyCheak (iOS).release.xcconfig"; path = "Target Support Files/Pods-MoneyCheak (iOS)/Pods-MoneyCheak (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		A2323C25EB9644DB6AC51814 /* Pods-MoneyCheak (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyCheak (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MoneyCheak (iOS)/Pods-MoneyCheak (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		A407F327AB738AB79DD20457 /* Pods_MoneyCheak__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyCheak__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9867B28A828E01476923F8A /* Pods_MoneyCheak__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyCheak__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8589CC0A2779347A00CEF70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0789DEB3035582D9F40242 /* Pods_MoneyCheak__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589CC102779347A00CEF70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB6A749E8FB49FC59CB1B38 /* Pods_MoneyCheak__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7020C3669F1D75600111225E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A407F327AB738AB79DD20457 /* Pods_MoneyCheak__iOS_.framework */,
+				D9867B28A828E01476923F8A /* Pods_MoneyCheak__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8589CC002779347700CEF70F = {
+			isa = PBXGroup;
+			children = (
+				8589CC052779347700CEF70F /* Shared */,
+				8589CC142779347A00CEF70F /* macOS */,
+				8589CC0E2779347A00CEF70F /* Products */,
+				CF47F687A2FA10924C5E9149 /* Pods */,
+				7020C3669F1D75600111225E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8589CC052779347700CEF70F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8589CC062779347700CEF70F /* MoneyCheakApp.swift */,
+				85B102D7277CFF770070B2CD /* GoogleService-Info.plist */,
+				8589CC072779347700CEF70F /* ContentView.swift */,
+				8589CC082779347A00CEF70F /* Assets.xcassets */,
+				85B102DA277D3AFD0070B2CD /* Homescreen.swift */,
+				85896A53277F83D2005B91C1 /* AccountView.swift */,
+				8562F7AD2780E559009A5870 /* Names.swift */,
+				8562F7B02780E5E3009A5870 /* GetNames.swift */,
+				8562F7B62781348F009A5870 /* Bills .swift */,
+				8562F7B927814533009A5870 /* AutoBills.swift */,
+				85721D0F27836C900074CF54 /* CatagoryView.swift */,
+				85721D1227837B6B0074CF54 /* CatagoryBills.swift */,
+				85CD377927825FC800053AE4 /* BillsDetails.swift */,
+				8590D6EF2785CFF9003294DC /* BillInfo.swift */,
+				850F209F27878B1200123E11 /* IntervalView.swift */,
+				851856B3278A83C900FA43BA /* NewBills.swift */,
+				851856B6278B5E6600FA43BA /* NewCatagoryView.swift */,
+				851856B9278B637700FA43BA /* NewIntervalView.swift */,
+				853BD679278CFB2C00CCA371 /* AnalysisView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8589CC0E2779347A00CEF70F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8589CC0D2779347A00CEF70F /* MoneyCheak.app */,
+				8589CC132779347A00CEF70F /* MoneyCheak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8589CC142779347A00CEF70F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8589CC152779347A00CEF70F /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CF47F687A2FA10924C5E9149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2323C25EB9644DB6AC51814 /* Pods-MoneyCheak (iOS).debug.xcconfig */,
+				9CBEA5BC82B72FBEC25DCFE7 /* Pods-MoneyCheak (iOS).release.xcconfig */,
+				7049D4E62E596A67389CD27E /* Pods-MoneyCheak (macOS).debug.xcconfig */,
+				29D4A87033A3B6F7FB32A2C8 /* Pods-MoneyCheak (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8589CC0C2779347A00CEF70F /* MoneyCheak (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8589CC1E2779347A00CEF70F /* Build configuration list for PBXNativeTarget "MoneyCheak (iOS)" */;
+			buildPhases = (
+				36B97E2710F8C033BB8DC1ED /* [CP] Check Pods Manifest.lock */,
+				8589CC092779347A00CEF70F /* Sources */,
+				8589CC0A2779347A00CEF70F /* Frameworks */,
+				8589CC0B2779347A00CEF70F /* Resources */,
+				7224C7BBD1BE5A1D282A6B18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoneyCheak (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "MoneyCheak (iOS)";
+			productReference = 8589CC0D2779347A00CEF70F /* MoneyCheak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8589CC122779347A00CEF70F /* MoneyCheak (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8589CC212779347A00CEF70F /* Build configuration list for PBXNativeTarget "MoneyCheak (macOS)" */;
+			buildPhases = (
+				0543908AA11D287AA0B0522F /* [CP] Check Pods Manifest.lock */,
+				8589CC0F2779347A00CEF70F /* Sources */,
+				8589CC102779347A00CEF70F /* Frameworks */,
+				8589CC112779347A00CEF70F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoneyCheak (macOS)";
+			productName = "MoneyCheak (macOS)";
+			productReference = 8589CC132779347A00CEF70F /* MoneyCheak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8589CC012779347700CEF70F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					8589CC0C2779347A00CEF70F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					8589CC122779347A00CEF70F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 8589CC042779347700CEF70F /* Build configuration list for PBXProject "MoneyCheak" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8589CC002779347700CEF70F;
+			packageReferences = (
+			);
+			productRefGroup = 8589CC0E2779347A00CEF70F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8589CC0C2779347A00CEF70F /* MoneyCheak (iOS) */,
+				8589CC122779347A00CEF70F /* MoneyCheak (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8589CC0B2779347A00CEF70F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8589CC1A2779347A00CEF70F /* Assets.xcassets in Resources */,
+				85B102D8277CFF770070B2CD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589CC112779347A00CEF70F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8589CC1B2779347A00CEF70F /* Assets.xcassets in Resources */,
+				85B102D9277CFF770070B2CD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0543908AA11D287AA0B0522F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyCheak (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B97E2710F8C033BB8DC1ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyCheak (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7224C7BBD1BE5A1D282A6B18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyCheak (iOS)/Pods-MoneyCheak (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyCheak (iOS)/Pods-MoneyCheak (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyCheak (iOS)/Pods-MoneyCheak (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8589CC092779347A00CEF70F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8590D6F02785CFFA003294DC /* BillInfo.swift in Sources */,
+				8562F7AE2780E55A009A5870 /* Names.swift in Sources */,
+				8562F7BA27814534009A5870 /* AutoBills.swift in Sources */,
+				8562F7B12780E5E3009A5870 /* GetNames.swift in Sources */,
+				85721D1327837B6B0074CF54 /* CatagoryBills.swift in Sources */,
+				85896A54277F83D2005B91C1 /* AccountView.swift in Sources */,
+				8589CC182779347A00CEF70F /* ContentView.swift in Sources */,
+				85B102DB277D3AFD0070B2CD /* Homescreen.swift in Sources */,
+				85721D1027836C900074CF54 /* CatagoryView.swift in Sources */,
+				851856B7278B5E6600FA43BA /* NewCatagoryView.swift in Sources */,
+				851856BA278B637700FA43BA /* NewIntervalView.swift in Sources */,
+				851856B4278A83CA00FA43BA /* NewBills.swift in Sources */,
+				850F20A027878B1200123E11 /* IntervalView.swift in Sources */,
+				8562F7B72781348F009A5870 /* Bills .swift in Sources */,
+				853BD67A278CFB2C00CCA371 /* AnalysisView.swift in Sources */,
+				85CD377A27825FC900053AE4 /* BillsDetails.swift in Sources */,
+				8589CC162779347A00CEF70F /* MoneyCheakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8589CC0F2779347A00CEF70F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8590D6F12785CFFA003294DC /* BillInfo.swift in Sources */,
+				8562F7AF2780E55A009A5870 /* Names.swift in Sources */,
+				8562F7BB27814534009A5870 /* AutoBills.swift in Sources */,
+				8562F7B22780E5E3009A5870 /* GetNames.swift in Sources */,
+				85721D1427837B6B0074CF54 /* CatagoryBills.swift in Sources */,
+				85896A55277F83D2005B91C1 /* AccountView.swift in Sources */,
+				8589CC192779347A00CEF70F /* ContentView.swift in Sources */,
+				85B102DC277D3AFD0070B2CD /* Homescreen.swift in Sources */,
+				85721D1127836C900074CF54 /* CatagoryView.swift in Sources */,
+				851856B8278B5E6600FA43BA /* NewCatagoryView.swift in Sources */,
+				851856BB278B637700FA43BA /* NewIntervalView.swift in Sources */,
+				851856B5278A83CA00FA43BA /* NewBills.swift in Sources */,
+				850F20A127878B1200123E11 /* IntervalView.swift in Sources */,
+				8562F7B82781348F009A5870 /* Bills .swift in Sources */,
+				853BD67B278CFB2C00CCA371 /* AnalysisView.swift in Sources */,
+				85CD377B27825FC900053AE4 /* BillsDetails.swift in Sources */,
+				8589CC172779347A00CEF70F /* MoneyCheakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8589CC1C2779347A00CEF70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8589CC1D2779347A00CEF70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8589CC1F2779347A00CEF70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2323C25EB9644DB6AC51814 /* Pods-MoneyCheak (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FTUF4AA5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MpTech.MoneyCheak;
+				PRODUCT_NAME = MoneyCheak;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8589CC202779347A00CEF70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBEA5BC82B72FBEC25DCFE7 /* Pods-MoneyCheak (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FTUF4AA5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MpTech.MoneyCheak;
+				PRODUCT_NAME = MoneyCheak;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8589CC222779347A00CEF70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7049D4E62E596A67389CD27E /* Pods-MoneyCheak (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FTUF4AA5D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MpTech.MoneyCheak;
+				PRODUCT_NAME = MoneyCheak;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8589CC232779347A00CEF70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D4A87033A3B6F7FB32A2C8 /* Pods-MoneyCheak (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FTUF4AA5D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MpTech.MoneyCheak;
+				PRODUCT_NAME = MoneyCheak;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8589CC042779347700CEF70F /* Build configuration list for PBXProject "MoneyCheak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8589CC1C2779347A00CEF70F /* Debug */,
+				8589CC1D2779347A00CEF70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8589CC1E2779347A00CEF70F /* Build configuration list for PBXNativeTarget "MoneyCheak (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8589CC1F2779347A00CEF70F /* Debug */,
+				8589CC202779347A00CEF70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8589CC212779347A00CEF70F /* Build configuration list for PBXNativeTarget "MoneyCheak (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8589CC222779347A00CEF70F /* Debug */,
+				8589CC232779347A00CEF70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8589CC012779347700CEF70F /* Project object */;
+}
